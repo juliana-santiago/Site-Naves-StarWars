@@ -167,7 +167,7 @@
 }
 
 .about-section {
-  padding-top: 5rem;
+  padding-top: 10rem;
   background: linear-gradient(to bottom, #161616 0%, rgba(22, 22, 22, 0.9) 75%, rgba(22, 22, 22, 0.8) 100%);
 }
 
@@ -176,7 +176,7 @@
 }
 
 .projects-section {
-  padding: 2rem 0;
+  padding: 2rem;
   background: rgba(22, 22, 22, 0.9);
 }
 
