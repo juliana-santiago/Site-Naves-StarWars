@@ -85,9 +85,6 @@ var isWindow = function isWindow( obj ) {
 		return obj != null && obj === obj.window;
 	};
 
-
-
-
 	var preservedScriptAttributes = {
 		type: true,
 		src: true,
@@ -138,8 +135,6 @@ function toType( obj ) {
 /* global Symbol */
 // Defining this global in .eslintrc.json would create a danger of using the global
 // unguarded in another place, it seems safer to define global only for this module
-
-
 
 var
 	version = "3.4.1",
