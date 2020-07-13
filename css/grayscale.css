@@ -165,7 +165,7 @@
   width: 100%;
   height: auto;
   min-height: 35rem;
-  padding: 15rem 0;
+  padding: 10rem 0;
   background: linear-gradient(to bottom, rgba(22, 22, 22, 0.3) 0%, rgba(22, 22, 22, 0.7) 75%, #161616 100%), url("../img/bg-test.jpg");
   background-position: center;
   background-repeat: no-repeat;
@@ -179,7 +179,7 @@
 
 .naves-section {
   padding: 2rem;
-  background: rgba(22, 22, 22, 0.9);
+  background:#161616;
 }
 
 .naves-section .featured-text {
@@ -187,10 +187,10 @@
 }
 
 @media (min-width: 992px) {
-  .naves-section .featured-text {
-    padding: 0 0 0 2rem;
-    border-left: 0.5rem solid #FFD700;
-  }
+.naves-section .featured-text {
+  padding: 0 0 0 3rem;
+  border-left: 0.5rem solid #FFD700;
+}
 }
 
 .naves-section .project-text {
@@ -199,15 +199,52 @@
 }
 
 @media (min-width: 992px) {
-  .naves-section .project-text {
-    padding: 5rem;
+  .naves-section .project-text-One {
+    padding: 3.92rem;
+    border-right: 0.5rem solid #FFD700;
+    border-top: 0.5rem solid #FFD700;
   }
-  .naves-section .project-text hr {
-    border-color: #FFD700;
-    border-width: .25rem;
-    width: 10%;
-  }
+
 }
+@media (min-width: 992px) {
+  .naves-section .project-text-Two {
+    padding: 3.92rem;
+    border-left: 0.5rem solid #FFD700;
+  }
+
+}
+
+@media (min-width: 992px) {
+  .naves-section .project-text-Three {
+    padding: 5rem;
+    border-right: 0.5rem solid #FFD700;
+  }
+
+}
+
+@media (min-width: 992px) {
+  .naves-section .project-text-Four {
+    padding: 3.92rem;
+    border-left: 0.5rem solid #FFD700;
+    border-bottom: 0.5rem solid #FFD700;
+  }
+
+
+@media (min-width: 992px) {
+    .naves-section .project-text-Five {
+      padding: 6rem;
+      border-left: 0.5rem solid #FFD700;
+    }
+
+
+@media (min-width: 992px) {
+    .naves-section .project-text-Six {
+      padding: 3.92rem;
+      border-right: 0.5rem solid #FFD700;
+    }
+
+  
+
 
 .projects-section {
   padding: 10rem 0;
